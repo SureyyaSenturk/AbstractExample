@@ -7,7 +7,6 @@
  */
  public abstract class BasePhoneManager {
     /**
-     *
      * @param price
      * @return
      */
@@ -20,6 +19,9 @@
     private String modelBilgisi;
     private String firmaBilgileri;
 
+    public BasePhoneManager(){
+
+    }
     public BasePhoneManager(String markaBilgileri,String firmaBilgileri){
         this.modelBilgisi = markaBilgileri;
         this.firmaBilgileri=firmaBilgileri;
